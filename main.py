@@ -28,13 +28,9 @@ class Main:
         self.output = output
         self.result = []
         print(Fore.BLUE + """
-          __  __          ____            __              ___                             
-     |  \/  |  _ __  |  _ \    ___   / /_    _   _   / _ \          __  __  ___   ___ 
-     | |\/| | | '__| | | | |  / _ \ | '_ \  | | | | | (_) |  _____  \ \/ / / __| / __|
-     | |  | | | |    | |_| | |  __/ | (_) | | |_| |  \__, | |_____|  >  <  \__ \ \__ \
-     |_|  |_| |_|    |____/   \___|  \___/   \__,_|    /_/          /_/\_\ |___/ |___/
-                                                                                  
-                                                                                  
+
+        
+                            #Take a Coffee break and chill                                                      
                             #Author: Adarsh Ramgirwar
         """ + Fore.WHITE)
 
