@@ -1,7 +1,8 @@
 ## MrDe6u9-Xss
 "Experience the Automation With this tool"
 
-![alt_text](Image)
+![alt_text](1.png)
+![alt_text](2.png)
 
 ### Features
 
